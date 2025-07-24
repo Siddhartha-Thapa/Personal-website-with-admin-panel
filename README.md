@@ -46,9 +46,7 @@ personal_website/
    - Place the folder in your web server's root (e.g., `htdocs` for XAMPP).
    - Access via `http://localhost/personal_website/`.
 
-## Admin Login
-- Default username: `admin`
-- Default password: `sid2512` (change in `admin/index.php` for security)
+
 
 ## Security Notes
 - **Never commit `config.php` or any file with real credentials to public repositories.**
