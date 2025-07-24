@@ -1,0 +1,18 @@
+# Sensitive configuration
+config.php
+
+# Backups and archives
+my_website.zip
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log 

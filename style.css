@@ -1,0 +1,53 @@
+/* Cool Navbar Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fb;
+    color: #222;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+    padding: 0;
+    box-shadow: 0 2px 8px rgba(30,60,114,0.08);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 18px;
+}
+
+.navbar a {
+    display: block;
+    padding: 16px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: color 0.2s, background 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #ffd166;
+    background: rgba(255,255,255,0.08);
+    border-bottom: 2px solid #ffd166;
+}
+
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar li {
+        margin: 8px 0;
+    }
+} 
